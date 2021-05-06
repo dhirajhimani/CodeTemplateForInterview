@@ -13,7 +13,7 @@ public class CircularArray<T> {
         if (index < 0) {
             index += items.length;
         }
-        return (head + index) % items.length;
+        throw new UnImplementedException();
     }
 
     public void rotate(int shiftRight) throws Exception {
@@ -24,7 +24,7 @@ public class CircularArray<T> {
         if (i < 0 || i >= items.length) {
             throw new IndexOutOfBoundsException("Index " + i + " is out of bounds");
         }
-        return items[convert(i)];
+        throw new UnImplementedException();
     }
 
     public void set(int i, T item) throws Exception {

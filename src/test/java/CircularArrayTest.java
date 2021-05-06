@@ -26,10 +26,7 @@ public class CircularArrayTest {
     @Test
     public void MyTestWorks() throws Exception {
 
-        array.rotate(3);
-        for (int i = 0; i < size; i++) {
-            assertEquals(arr[i], array.get(i));
-        }
+        throw new UnImplementedException();
     }
 
 }
